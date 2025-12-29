@@ -34,7 +34,8 @@ module.exports = async (kernel) => {
           "pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.1/index.html",
           "pip install -U openmim",
           "mim install mmengine==0.10.5 mmdet==3.2.0 mmpose==1.3.2",
-          "pip install -r requirements.txt"
+          "pip install -r requirements.txt",
+          "pip install mediapipe==0.10.21"
         ]
       }
     }, {
