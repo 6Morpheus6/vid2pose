@@ -22,7 +22,7 @@ module.exports = {
       venv: "env",
       path: "app",
       message: [
-        "uv pip install opencv-python gradio==3.50.2 moviepy==1.0.3 wheel",
+        "uv pip install opencv-python gradio==3.50.2 moviepy==1.0.3 wheel fastapi==0.122.0",
         "uv pip install -U openmim",
         "mim install mmengine==0.10.5 mmdet==3.2.0 mmpose==1.3.2 --no-build-isolation",
         "uv pip install -r requirements.txt",
